@@ -394,5 +394,6 @@ int main(void)
 }
 
 Answer = 2 
+
 30)  int area[] = {1, 2, 3}
 int area[3] = {1, 2, 3}
