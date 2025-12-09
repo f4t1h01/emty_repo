@@ -1,31 +1,36 @@
+````md
 Question.  1) Looking at the question:
 **The French language is an example of:**
 
 - [ ] a programming language  
 - [ ] a machine language  
-**- [x] a natural language  **
+- [x] a natural language
 
 Question. 2) The correct way to make comments in C is:
-a) */ my comment /*
+
 **b) /* my comment */**
-c) # my comment #
-d) <!— my comment —>
 
 
 Question. 3) 
-int var;
-var = 3;
-var = var * var;
-/* var = var + var; */
-/*
-var = var / var;
-var = var % var;
-*/
-var = var - 1;
+```c
+{
+	int var;
+	var = 3;
+	var = var * var;
+	/* var = var + var; */
+	/*
+	var = var / var;
+	var = var % var;
+	*/
+	var = var - 1;
+}
+````
 
 **Answer = 8**
 
-Question. 4) 
+Question. 4)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -44,10 +49,13 @@ int main(void)
     printf("%d", c);
     return 0;
 }
+```
 
 **Answer = -6**
 
-Question. 5) 
+Question. 5)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -61,9 +69,13 @@ int main(void)
     printf("%d", j);
     return 0;
 }
-**Answer = 1**  
+```
 
-Question. 6) 
+**Answer = 1**
+
+Question. 6)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -74,10 +86,13 @@ int main(void)
     printf("%d", k);
     return 0;
 }
+```
 
-**Answer = 0** 
+**Answer = 0**
 
 Question. 7)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -94,10 +109,14 @@ int main(void)
 
         printf("%d",j);
     return 0;
-} 
+}
+```
+
 **Answer = 3**
 
-Question. 8) 
+Question. 8)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -114,9 +133,13 @@ int main(void)
     printf("%d",j);
     return 0;
 }
+```
+
 **Answer = 6**
- 
-Question. 8) 
+
+Question. 8)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -130,8 +153,9 @@ int main(void)
     printf("%d",t[1]);
     return 0;
 }
- Answer = 0
+```
 
+Answer = 0
 
 Question. 9) Which of the following examples are legal ways of initializing arr array?
 
@@ -140,7 +164,9 @@ b) int arr{3} = [1, 2, 3];
 c) int arr{3} = {1, 2,  3};
 **d) int arr[] = {1, 2, 3};**
 
-Question. 10) 
+Question. 10)
+
+```c
 #include <stdio.h>
 int main()
 {
@@ -157,10 +183,14 @@ for(int i = 0; i < 5; ++i) {
 return 0;
 
 return 0;
-} 
+}
+```
+
 **Answer = 1 0 3 0 5**
- 
+
 Question. 11)
+
+```c
 #include <stdio.h>
 void fun(int a, int b)
 {
@@ -173,9 +203,13 @@ int main()
     fun(arr[1], arr[3]);
       return 0;
 }
+```
+
 **Answer = 42**
 
-Question. 12) 
+Question. 12)
+
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -188,9 +222,13 @@ int main(void)
         printf("%d", s[0] - s[1]);
       return 0;
 }
+```
+
 **Answer = -1**
 
 Question. 13)
+
+```c
 #include <stdio.h>
 int main ()
 {
@@ -204,10 +242,13 @@ int main ()
 
       return 0;
 }
+```
+
 **Answer = 2  2**
 
-
 Question. 14)
+
+```c
 #include <stdio.h>
 int fun(int a) {
     return a + 1;
@@ -220,15 +261,19 @@ int main()
     fun(1);
     printf("%d", *a);
 }
+```
+
 **Answer = compile error**
 
- Question. 15) What is the value of the following integer literal? \013
-**Answer = 11** 
+Question. 15) What is the value of the following integer literal? \013
+**Answer = 11**
 
 Question. 16) 0x22 in hexadecimal:
 **Answer = 34**
 
-Question. 17) 
+Question. 17)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -242,10 +287,14 @@ int main(void)
     printf("%d", i + j);
     return 0;
 }
+```
 
-Answer = 21000… Alternative answer = 22222… 
+Answer = 21000…
+Alternative answer = 22222…
 
 Question. 18)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -258,10 +307,13 @@ int main(void)
     printf("%d", i + j);
     return 0;
 }
-**Answer = -8 **
+```
 
+**Answer = -8**
 
-Question. 19) 
+Question. 19)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -273,10 +325,14 @@ int main(void)
     printf("%d", i - j);
     return 0;
 }
+```
 
-Answer = 2 Alternative Answer = 1 
- 
-Question. 20) 
+Answer = 2
+Alternative Answer = 1
+
+Question. 20)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -288,10 +344,13 @@ int main(void)
     printf("%d", k);
     return 0;
 }
+```
+
 **Answer = 4**
 
+Question. 21)
 
-Question. 21) 
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -307,10 +366,13 @@ int main(void)
     printf("%d", --j);
     return 0;
 }
+```
 
 **Answer = 3**
 
 Question. 22)
+
+```c
 #include <stdio.h>
 int fun() {
     int a;
@@ -322,9 +384,13 @@ int main()
     printf("%d", fun());
     return 0;
 }
-**Answer = Undefined behavior **
+```
 
-Question. 23) 
+**Answer = Undefined behavior**
+
+Question. 23)
+
+```c
 #include <stdio.h>
 int fun(int a=1) {
     return a;
@@ -333,6 +399,8 @@ int fun(int a=1) {
 int main() {
     printf("%d", fun(2));
 }
+```
+
 **Answer = Compile Error**
 
 Question. 24) Which of the following are legal variable name in the C language?
@@ -343,7 +411,9 @@ b) MyV@riable
 **d) _myVariable**
 **E) MyVariableIsTheLongestvariable**
 
-Question. 25) 
+Question. 25)
+
+```c
 #include <stdio.h>
 int fun(int a) {
     int b = 1;
@@ -358,30 +428,43 @@ int main()
     printf ("%d", fun(x));
 
     return 0;
-}  
-**Answer = Input 5 --> Output 10;   Input 3 --> Output 6 **
- 
-Question. 26) Which of the following are valid floating-point literals? 
+}
+```
+
+**Answer = Input 5 --> Output 10;   Input 3 --> Output 6**
+
+Question. 26) Which of the following are valid floating-point literals?
 Select two answers.
+
 **a) .1**
 b) 1
 c) -1
 **d) -0.1**
- 
+
 Question. 27) What is the value of the var variable after the execution of the following snippet of code:
+
+```c
 int var;
 var = -1;
 var = var + 1;
-var = var + var; 
-**Answer = 0 **
- 
-Question. 28) 
+var = var + var;
+```
+
+**Answer = 0**
+
+Question. 28)
+
+```c
  int var;
 var = 9;
-var = var / 2; 
-**Answer = 4 ** 
+var = var / 2;
+```
 
-Question. 29) 
+**Answer = 4**
+
+Question. 29)
+
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -405,17 +488,16 @@ int main(void)
     printf("%d", k);
     return 0;
 }
-**Answer = 2 **
+```
+
+**Answer = 2**
 
 Question. 30)
+
+```c
 int area[] = {1, 2, 3}
 int area[3] = {1, 2, 3}
+```
 
-
-
-
-
-
-
-
-
+```
+```
