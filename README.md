@@ -6,7 +6,9 @@
 - [ ] a machine language  
 - [x] a natural language  
 
-French is a human language spoken by people, so it is a **natural language**, not a programming or machine language.   2) The correct way to make comments in C is:
+French is a human language spoken by people, so it is a **natural language**, not a programming or machine language.   
+
+2) The correct way to make comments in C is:
 
 a) */ my comment /*
 b) /* my comment */
