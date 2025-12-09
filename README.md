@@ -14,7 +14,8 @@ c) # my comment #
 d) <!— my comment —>
  Answer =  `/* ... */` for multi-line comments
 
- 3) int var;
+
+ 3) int var;
 
 var = 3;
 var = var * var;
@@ -26,7 +27,8 @@ var = var % var;
 var = var - 1;
 
 Answer = 8
-  4) #include <stdio.h>
+ 
+  4) #include <stdio.h>
 
 int main(void)
 {
@@ -47,7 +49,8 @@ int main(void)
 }
 
 Answer = -6 
- 5) #include <stdio.h>
+
+ 5) #include <stdio.h>
 
 int main(void)
 {
@@ -62,7 +65,9 @@ int main(void)
     return 0;
 }
 
-Answer = 1   6) #include <stdio.h>
+Answer = 1   
+
+6) #include <stdio.h>
 
 int main(void)
 {
@@ -74,7 +79,9 @@ int main(void)
     return 0;
 }
 
-Answer = 0   7) #include <stdio.h>
+Answer = 0  
+
+7) #include <stdio.h>
 
 int main(void)
 {
@@ -93,7 +100,9 @@ int main(void)
     return 0;
 } 
 
-Answer = 3   8) #include <stdio.h>
+Answer = 3  
+
+8) #include <stdio.h>
 
 int main(void)
 {
@@ -110,7 +119,9 @@ int main(void)
     printf("%d",j);
     return 0;
 }
- Answer = 6  8) #include <stdio.h>
+ Answer = 6  
+ 
+ 8) #include <stdio.h>
 
 int main(void)
 {
@@ -155,7 +166,9 @@ return 0;
 return 0;
 } 
 Answer = 1 0 3 0 5 
- 11) #include <stdio.h>
+
+ 
+ 11) #include <stdio.h>
 
 void fun(int a, int b)
 {
@@ -169,7 +182,9 @@ int main()
       return 0;
 }
 
-Answer = 42   12) #include <stdio.h>
+Answer = 42   
+
+12) #include <stdio.h>
 #include <string.h>
 
 int main(void)
@@ -183,6 +198,7 @@ int main(void)
 }
 
 Answer = -1  
+
 13) #include <stdio.h>
 
 int main ()
@@ -216,11 +232,15 @@ int main()
 }
 
 Answer = compile error 
- 15) What is the value of the following integer literal? \013
- Answer = 11 
- 16) 0x22 in hexadecimal:  Answer = 34
 
- 17) #include <stdio.h>
+ 15) What is the value of the following integer literal? \013
+ Answer = 11 
+
+ 16) 0x22 in hexadecimal:
+     Answer = 34
+
+ 
+ 17) #include <stdio.h>
 
 int main(void)
 {
@@ -235,7 +255,9 @@ int main(void)
     return 0;
 }
 
-Answer = 21000… Alternative answer = 22222…  18) #include <stdio.h>
+Answer = 21000… Alternative answer = 22222… 
+
+18) #include <stdio.h>
 
 int main(void)
 {
@@ -251,6 +273,7 @@ int main(void)
 
 Answer = -8 
 
+
 19) #include <stdio.h>
 
 int main(void)
@@ -265,7 +288,8 @@ int main(void)
 }
 
 Answer = 2 Alternative Answer = 1 
- 20) #include <stdio.h>
+ 
+ 20) #include <stdio.h>
 
 int main(void)
 {
@@ -299,7 +323,8 @@ int main(void)
 }
 
 Answer = 3 
- 22) #include <stdio.h>
+
+ 22) #include <stdio.h>
 
 int fun() {
     int a;
@@ -314,6 +339,7 @@ int main()
 
 Answer = Undefined behavior 
 
+
 23) #include <stdio.h>
 
 int fun(int a=1) {
@@ -326,6 +352,7 @@ int main() {
 
 Answer = Compile Error 
 
+
 24) Which of the following are legal variable name in the C language?
 
 a) 01myvariable
@@ -335,7 +362,8 @@ d) _myVariable
 E) MyVariableIsTheLongestvariable
 
 Answer = My_Variable, MyVariableIsTheLongestvariable, _myVariable 
- 25) #include <stdio.h>
+ 
+ 25) #include <stdio.h>
 
 int fun(int a) {
     int b = 1;
@@ -351,7 +379,8 @@ int main()
 
     return 0;
 }  Answer = Input 5 --> Output 10;   Input 3 --> Output 6 
- 26) Which of the following are valid floating-point literals? 
+ 
+ 26) Which of the following are valid floating-point literals? 
 Select two answers.
 a) .1
 b) 1
@@ -359,16 +388,20 @@ c) -1
 d) -0.1
 
 Answer = .1 ; -0.1 
- 27) What is the value of the var variable after the execution of the following snippet of code:
+ 
+ 27) What is the value of the var variable after the execution of the following snippet of code:
 int var;
 var = -1;
 var = var + 1;
 var = var + var;  Answer = 0 
- 28) int var;
+ 
+ 28) int var;
 
 var = 9;
 var = var / 2; 
-Answer = 4   29) #include <stdio.h>
+Answer = 4  
+
+29) #include <stdio.h>
 
 int main(void)
 {
