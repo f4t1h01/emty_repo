@@ -1,503 +1,492 @@
-````md
-Question.  1) Looking at the question:
-**The French language is an example of:**
-
-- [ ] a programming language  
-- [ ] a machine language  
-- [x] a natural language
-
-Question. 2) The correct way to make comments in C is:
-
-**b) /* my comment */**
-
-
-Question. 3) 
-```c
-{
-	int var;
-	var = 3;
-	var = var * var;
-	/* var = var + var; */
-	/*
-	var = var / var;
-	var = var % var;
-	*/
-	var = var - 1;
-}
-````
+1. **Embedded Systems means:**
+
+   * Businesses cannot charge anything for the software, only the hardware
+   * **Systems designed to do a specific task on hardware optimized for only that purpose**
+   * Users must support the systems themselves
+   * You can view the software’s source code
+   * Companies must share their changes
 
-**Answer = 8**
-
-Question. 4)
-
-```c
-#include <stdio.h>
-int main(void)
-{
-    int a, b, c;
-
-    a = -1;
-    b = 2;
+2. **Linux originally only ran on:**
+
+   * Specialized processor chips
+   * Raspberry Pi computers
+   * Xerox copy machines
+   * **Intel 386 PCs**
+   * Macintosh
 
-    if(a)
-          a--;
-    if(b)
-           b++;
-
-    c = a * b;
-    
-    printf("%d", c);
-    return 0;
-}
-```
+3. **Bundling utilities, management tools, and application software with a Linux kernel is called a:**
+
+   * A text editor
+   * A type of hardware
+   * **A distribution of Linux**
+   * A trademark
 
-**Answer = -6**
+4. **A software release cycle describes:**
 
-Question. 5)
+   * How often the software’s memory is released back to the operating system
+   * How often the computer must be rebooted
+   * **How often upgrades come out for software**
+   * How often security fixes are implemented
+   * How often the computer must be upgraded to support new software
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i, j;
-    i = 1; j = 1;
+5. **Apple’s OS X is: (choose three)**
 
-    while(i > 16) {
-          i += 4;
-           j++;
-    }
-    printf("%d", j);
-    return 0;
-}
-```
+   * **Tightly integrated with Apple hardware**
+   * **A fully certified UNIX distribution**
+   * Primarily used to manage network services
+   * Able to natively run Windows binaries
+   * Derived from Linux
+   * **Partially based on code from the FreeBSD project**
 
-**Answer = 1**
+6. **Microsoft Windows: (choose three)**
 
-Question. 6)
+   * **Offers both desktop and server products**
+   * Has a short maintenance cycle
+   * Has a Linux compatibility mode
+   * **Is generally backwards compatible with previous versions**
+   * **Has a scripting environment called PowerShell**
+   * Has a new desktop version every year.
 
-```c
-#include <stdio.h>
-int main(void)
-{
+7. **An interpreted programming language: (choose two)**
 
-    k = !i | j;
-    k = !k;
+   * Takes fewer resources to run than a compiled language
+   * Requires a compilation step but no linking step
+   * **Tends to offer more features than compiled languages**
+   * **Is converted into machine specific instructions as the program runs**
+   * Requires a linking step but no compilation step
 
-    printf("%d", k);
-    return 0;
-}
-```
+8. **The two main families of Linux shells are: (choose two)**
 
-**Answer = 0**
+   * Emacs
+   * Korn shell
+   * **Bourne Shell**
+   * **C Shell**
+   * Python Shell
 
-Question. 7)
+9. **In virtualization, what are the host and guest? (choose two)**
 
-```c
-#include <stdio.h>
-int main(void)
-{
+   * The guest is the machine that runs the virtual machines
+   * The terms can be used interchangeably
+   * **The host is the machine that runs the virtual machines**
+   * **A guest is a virtual machine**
+   * A host is a virtual machine
 
-    int i = 1, j = -1;
+10. **Cloud computing is:**
 
-    for(;;) {
-          i *= 2;
-           j++;
+* Is made possible by faster internet speeds
+* Is useful for both business and home users
+* **All are correct**
+* Requires fewer resources because systems are shared among many users
+* Allows users in different geographical regions to work together in real time
 
-           if(i >= 16)
-            break;
-    }
+11. **Which of the following are properties of a strong password? (choose three)**
 
-        printf("%d",j);
-    return 0;
-}
-```
+* **Includes symbols**
+* **At least 10 characters long**
+* **A mix of upper and lower case**
+* Based on easy to remember items like birthdays
+* Long so that it can be reused on multiple sites
 
-**Answer = 3**
+12. **A license where you don’t have access to the source code is called:**
 
-Question. 8)
+* **Closed source**
+* Sourceless
+* Impaired source
+* Open source
 
-```c
-#include <stdio.h>
-int main(void)
-{
+13. **A copyleft provision in a software license means:**
 
-    int i = 2, j = 0;
+* You must provide support for your modifications
+* You must provide free copies of the software if you use it
+* You may not link against third party closed source software
+* You give up your copyright to the software
+* **If you redistribute the software, you must distribute the source to any changes you make**
 
-    switch(i + 5) {
-    case 1: j++;
-    case 2: j++;
-    default:j = 5;
-    case 0: j++; break;
-    }
+14. **The Free Software Foundation believes that: (choose two)**
 
-    printf("%d",j);
-    return 0;
-}
-```
+* **Software should be free to modify**
+* **Software should be free to share**
+* No money should ever change hands
+* People should write software with no expectation of making money
+* Software should not have copyright
 
-**Answer = 6**
+15. **What does it mean when a work is placed in the public domain?**
 
-Question. 8)
+* **The author has relinquished the copyright on the work**
+* The author has died
+* You must redistribute changes to the software
+* You may not use the work for commercial purposes
+* The work was done by a government agency
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i, t[4];
+16. **The semicolon (;) can be used to separate multiple commands to be executed in order. True or False?**
 
-    t[3] = 0;
+* **True**
+* False
 
-    for(i = 1; i >= 0; i--)
-          t[i] = t[3] * i;
+17. **To be able to output messages to the screen, use the _______ command:**
 
-    printf("%d",t[1]);
-    return 0;
-}
-```
+* type
+* print
+* display
+* **echo**
 
-Answer = 0
+18. **The _______ command will print a list of the commands that you’ve previously executed.**
 
-Question. 9) Which of the following examples are legal ways of initializing arr array?
+* **history**
+* exec
+* eval
+* list
 
-**a) int arr[3] = {1, 2, 3};**
-b) int arr{3} = [1, 2, 3];
-c) int arr{3} = {1, 2,  3};
-**d) int arr[] = {1, 2, 3};**
+19. **HOME is an example of _________.**
 
-Question. 10)
+* An internal command
+* An alias
+* A path variable
+* A local variable
+* **An environment variable**
 
-```c
-#include <stdio.h>
-int main()
-{
-	int arr[5] = {1, 2, 3, 4, 5};
-	arr[1] = 0;
-	arr[3] = 0;
+20. **The directory where additional documentation for software packages most likely can be found is:**
 
-for(i = 1; i >= 0; i--)
-	t[i] = t[3] * i;
+* **/usr/share/doc**
+* /var/share/doc
+* /var/lib/doc
+* /usr/software/doc
 
-for(int i = 0; i < 5; ++i) {
-	printf("%d ", arr[i]);
-}
-return 0;
+21. **To start searching a man page, the first key you press is:**
 
-return 0;
-}
-```
+* s
+* !
+* **/**
+* f
 
-**Answer = 1 0 3 0 5**
+22. **To get help on using the info command, execute: (choose two)**
 
-Question. 11)
+* help info
+* **man info**
+* info -q
+* **info info**
 
-```c
-#include <stdio.h>
-void fun(int a, int b)
-{
-    printf("%d", b);
-    printf("%d", a);
-}
-int main()
-{
-    int arr[] = {1, 2, 3, 4};
-    fun(arr[1], arr[3]);
-      return 0;
-}
-```
+23. **The _____ command can be used to find any file, not just commands or man pages.**
 
-**Answer = 42**
+* whatis
+* whereis
+* apropos
+* **locate**
 
-Question. 12)
+24. **Hidden files are files that begin with what character?**
 
-```c
-#include <stdio.h>
-#include <string.h>
+* A dash (-)
+* A plus (+)
+* **A period (.)**
+* An asterisk (*)
 
-int main(void)
-{
-    char s[5] = "ABC";
+25. **The top-level directory on a Linux system is represented as:**
 
-    strcat(s + 1, "ABC");
+* C:/
+* /home
+* **/**
+* /root
 
-        printf("%d", s[0] - s[1]);
-      return 0;
-}
-```
+26. **The ls command without options or arguments…**
 
-**Answer = -1**
+* **…lists the contents of the current directory.**
+* …prompts for a directory to list.
+* …generates an error as this command requires arguments.
+* …lists the contents of a user’s home directory.
 
-Question. 13)
+27. **The command ls -S will sort files:**
 
-```c
-#include <stdio.h>
-int main ()
-{
-    int* a, b;
-    b = 1;
-    a = &b;
-    b = 2;
+* By size, smallest to largest
+* **By size, largest to smallest**
+* By number of symlinks, largest to smallest
+* By modification date, newest to oldest
 
-    printf("%d\n", b);
-    printf("%d", *a);
+28. **When using the cp command, you must provide both a source and a destination. True or False?**
 
-      return 0;
-}
-```
+* **True**
+* False
 
-**Answer = 2  2**
+29. **Which option can be used with the rm command to prompt before deleting?**
 
-Question. 14)
+* l
+* **-i**
+* A
+* -P
 
-```c
-#include <stdio.h>
-int fun(int a) {
-    return a + 1;
-}
+30. **Which command would list files that do not begin with a T or a W?**
 
-int main()
-{
-    int a = 0;
+* echo /etc/*[TW!]
+* **echo /etc/[!TW]***
+* echo /etc/!TW
+* echo /etc/[*TW]!
 
-    fun(1);
-    printf("%d", *a);
-}
-```
+31. **In general, for which of the following would you want to use lossless compression?**
 
-**Answer = compile error**
+* An mp3 audio file
+* A movie
+* A JPEG image
+* **A log file**
+* An encrypted email
 
-Question. 15) What is the value of the following integer literal? \013
-**Answer = 11**
+32. **You type gzip myfile.tar. What happens? (choose two)**
 
-Question. 16) 0x22 in hexadecimal:
-**Answer = 34**
+* **myfile.tar is removed**
+* An error; you forgot to pass the name of the output file
+* myfile.tar is unarchived into the current directory
+* **myfile.tar.gz holds a compressed version of myfile.tar**
+* An error; you forgot to specify the file with -f
 
-Question. 17)
+33. **Which command will show what is inside the compressed tarball with a name of foo.tar.gz?**
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i = 4, j = 1;
+* tar –tf foo.tar.gz
+* tar –lf foo.tar.gz
+* **tar –tzf foo.tar.gz**
+* tar –tjf foo.tar.gz
+* tar –xf foo.tar.gz
 
-    while(j > 0) {
-          i /= 2;
-           printf("%d", i);
-    }
+34. **By default, the zip command replaces uncompressed files with compressed files. True or False?**
 
-    printf("%d", i + j);
-    return 0;
-}
-```
+* True
+* **False**
 
-Answer = 21000…
-Alternative answer = 22222…
+35. **Error messages generated by commands are sent where by default?**
 
-Question. 18)
+* STDOUT
+* Log files
+* **STDERR**
+* STDIN
 
-```c
-#include <stdio.h>
-int main(void)
-{
+36. **Which of the following commands will display only lines that begin with test?**
 
-    int i = -1, j = 3;
+* grep $test* file.txt
+* **grep ^test file.txt**
+* grep &test file.txt
+* grep *test file.txt
 
-    for(j > 0; j; j--)
-           i *= 2;
+37. **Which of the following commands will display lines that contain either start or end?**
 
-    printf("%d", i + j);
-    return 0;
-}
-```
+* egrep start end file.txt
+* egrep (start|end) file.txt
+* egrep start&end file.txt
+* **egrep 'start|end' file.txt**
 
-**Answer = -8**
+38. **A file begins with #!/bin/csh. This means:**
 
-Question. 19)
+* Nothing, this is a comment
+* This is a Perl script
+* **Running the script will invoke /bin/csh to interpret the rest of the file**
+* The operator should not be using /bin/csh
+* C Shell compatibility mode is enabled
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i = -3, j = 0;
+39. **Most of nano’s commands take the form of:**
 
-    for(i++; i++; i++)
-          j--;
+* Alt and another character
+* **Control and another character**
+* The F1 through F12 function keys
+* Mouse clicks
+* Escape followed by another character
 
-    printf("%d", i - j);
-    return 0;
-}
-```
+40. **The if command looks for what exit code to consider a condition to be true?**
 
-Answer = 2
-Alternative Answer = 1
+* **0**
+* 10
+* 255
+* 2
+* 1
 
-Question. 20)
+41. **The number of users logged in is in a variable called USERS. How would you test to see if there are 5 users logged in?**
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i = 2, j = 1, k;
+* test –f USERS=5
+* **test $USERS –eq 5**
+* test $USERS = 5
+* test $USERS –a 5
+* test $USERS,5
 
-    k = i >> j;
-    k <<= i;
+42. **Which of the following are valid partitioning types? (choose two)**
 
-    printf("%d", k);
-    return 0;
-}
-```
+* **GPT**
+* PC
+* **MBR**
+* BIOS
 
-**Answer = 4**
+43. **Software that allows hardware devices to communicate with the installed operating system is called?**
 
-Question. 21)
+* Packages
+* **Drivers**
+* Instructions
+* Programs
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i = 3;
-    int j = i - 1 / i;
+44. **Which of the following commands will check hard disk GPT partitions? (choose three)**
 
-           switch(i - j) {
-    case  1: j--;
-           case  2: j++;
-           case  0: j++; break;
-           default: j = -1;
+* **gdisk**
+* sfdisk
+* gfdisk
+* **sgdisk**
+* **cgdisk**
 
-    printf("%d", --j);
-    return 0;
-}
-```
+45. **The process (ps) command shows only processes running in the current shell by default. True or False?**
 
-**Answer = 3**
+* **True**
+* False
 
-Question. 22)
+46. **The free command outputs statistics about:**
 
-```c
-#include <stdio.h>
-int fun() {
-    int a;
-    return ++a;
-}
+* Disk usage
+* **Memory usage**
+* Software usage
+* CPU usage
 
-int main()
-{
-    printf("%d", fun());
-    return 0;
-}
-```
+47. **Which file contains the information passed to the kernel at boot time?**
 
-**Answer = Undefined behavior**
+* /proc/kernel
+* /proc/kargs
+* /proc/kopts
+* **/proc/cmdline**
 
-Question. 23)
+48. **To make changes permanent for kernel parameter files found under /proc/sys, the following file can have entries added to it:**
 
-```c
-#include <stdio.h>
-int fun(int a=1) {
-    return a;
-}
+* /etc/sysinfo.conf
+* **/etc/sysctl.conf**
+* /etc/procctl.conf
+* /etc/procsys.conf
 
-int main() {
-    printf("%d", fun(2));
-}
-```
+49. **Which of the following commands will display the IP address on a Linux system?**
 
-**Answer = Compile Error**
+* dig
+* **ifconfig**
+* route
+* ipconfig
 
-Question. 24) Which of the following are legal variable name in the C language?
+50. **The RSA key fingerprint allows the dig command to connect to remote systems. True or False?**
 
-a) 01myvariable
-b) MyV@riable
-**c) My_Variable**
-**d) _myVariable**
-**E) MyVariableIsTheLongestvariable**
+* True
+* **False**
 
-Question. 25)
+51. **When issuing the service network restart command, which of the following occurs?**
 
-```c
-#include <stdio.h>
-int fun(int a) {
-    int b = 1;
-    return a << b;
-}
-int main()
-{
-    int x;
+* **…the networking for the system is stopped and then started back up.**
+* …brings up all network interfaces, re-reads all related configuration files and then the networking for the system is restarted.
+* …takes down all network interfaces, re-reads all related configuration files and then the networking for the system is restarted.
 
-    scanf("%d", &x);
+52. **Which of the following commands can be used to display socket statistics, and supports all major packet and socket types?**
 
-    printf ("%d", fun(x));
+* route
+* **ss**
+* top
+* ifconfig
 
-    return 0;
-}
-```
+53. **Which of the following commands will display the groups that the user bob belongs to?**
 
-**Answer = Input 5 --> Output 10;   Input 3 --> Output 6**
+* groups -a
+* group bob
+* all bob
+* **id bob**
 
-Question. 26) Which of the following are valid floating-point literals?
-Select two answers.
+54. **Traditional UNIX systems allowed users to belong to how many groups?**
 
-**a) .1**
-b) 1
-c) -1
-**d) -0.1**
+* 256
+* 65,000
+* 1
+* 10,000
+* **16**
 
-Question. 27) What is the value of the var variable after the execution of the following snippet of code:
+55. **A value of 0 in the “minimum” password aging field means the user cannot change their password. True or False?**
 
-```c
-int var;
-var = -1;
-var = var + 1;
-var = var + var;
-```
+* True
+* **False**
 
-**Answer = 0**
+56. **Sudo privileges allow users to execute commands as another user. True or False?**
 
-Question. 28)
+* **True**
+* False
 
-```c
- int var;
-var = 9;
-var = var / 2;
-```
+57. **The first line of this command displays how long the system has been running since being rebooted.**
 
-**Answer = 4**
+* getent
+* id
+* **w**
+* su
+* who
 
-Question. 29)
+58. **Which option for the usermod command can be used to specify a user’s group ID (either primary or secondary)? (choose two)**
 
-```c
-#include <stdio.h>
-int main(void)
-{
-    int i, j, k;
+* **-G**
+* -s
+* -S
+* **-g**
 
-    i = 1;
-    j = 3;
+59. **The groupmod command can be used to add users to a group. True or False?**
 
-    int x;
+* True
+* **False**
 
-    if(j)
-           j--;
-    else
-           i++;
-    if(i) 0;
-           i--;
-    else
-           j++;
-       k = i + j;
+60. **Which of the following files contains user IDs?**
 
-    printf("%d", k);
-    return 0;
-}
-```
+* /etc/usr
+* /etc/shadow
+* /etc/group
+* **/etc/passwd**
 
-**Answer = 2**
+61. **Which of the following commands, run as root, will prevent the user bob from logging in?**
 
-Question. 30)
+* usermod -D bob
+* usermod -d bob
+* **usermod -L bob**
+* usermod -l bob
 
-```c
-int area[] = {1, 2, 3}
-int area[3] = {1, 2, 3}
-```
+62. **What directory contains a user’s home directory?**
 
-```
-```
+* /rootfs
+* /
+* **/home**
+* /user
+
+63. **GIDs under 500 (or 1000) are usually reserved for what kind of groups?**
+
+* Administrators
+* **System use**
+* User private groups (UPG)
+* Are not used for groups, but for user accounts
+
+64. **A user cannot delete a file if they do not own it. True or False?**
+
+* True
+* **False**
+
+65. **The chown command permits changing group ownership done by root only. True or False?**
+
+* True
+* **False**
+
+66. **Which of the following commands will list hidden files as well as their ownership?**
+
+* ls -l
+* ls -z
+* ls -a
+* **ls -la**
+
+67. **Which of the following commands will set setuid for the /usr/bin/program?**
+
+* chmod 1755 /usr/bin/program
+* None of the above
+* chmod 2755 /usr/bin/program
+* **chmod 4755 /usr/bin/program**
+
+68. **Setting setgid on a directory…**
+
+* **…will set the group owner of all files created in the directory to the group owner of the directory.**
+* …will allow scripts in the directory to be executed as the group owner of the directory.
+* …does nothing.
+* …is not allowed by the system.
+
+69. **Deleting a source file will break an associated hard link. True or False?**
+
+* True
+* **False**
+
+70. **Which of the following commands would create a hard link, link to file?**
+
+* ln link file
+* ln -s file link
+* ln -s link file
+* **ln file link**
